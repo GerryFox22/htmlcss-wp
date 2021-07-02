@@ -25,6 +25,7 @@ body{
 }
 
 .section-1-container {
+    border-radius: 7px;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -37,13 +38,12 @@ body{
 
 
 .header-section-2 {
-    background-color: aqua;
+    margin: 20px auto;
     width: 100%;
     height: 40px;
 }
 
 .body-section-2 {
-    background-color: blue;
     margin-bottom: 6px;
 }
 
@@ -53,17 +53,15 @@ body{
 }
 
 .external-column {
-    background-color: aqua;
     width: calc(25% - 5px);
-    height: 250px;
+    height: 500px;
     margin: 10px 0;
     
 }
 
 .central-column {
-    background-color: aqua;
     width: calc(50% - 10px);
-    height: 250px;
+    height: 500px;
     margin: 10px 10px;
 }
 
@@ -107,6 +105,7 @@ a {
 /* main section 1 */
 
 .section-1-container:before {
+    border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.20);
     content: '';
     display: block;
@@ -132,3 +131,53 @@ a {
     font-size: 10px;
 }
 
+
+/* main section 2 header */
+
+.header-section-2 h1 {
+    font-size: 20px;
+}
+
+.section-2-container p {
+    color: #828282;
+    font-size: 13px;
+}
+
+
+/* main section 2 body */
+
+.column-img {
+    border-radius: 7px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 173px;
+    
+}
+
+
+
+.column-img:before {
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+    content: '';
+    display: block;
+    height: 100%;
+}
+
+.img-title {
+    font-size: 15px;
+}
+
+#left-img {
+    background-image: url(../img/img-1.jpg);
+}
+
+#central-img {
+    background-image: url(../img/banner-2.jpg);
+}
+
+#right-img {
+    background-image: url(../img/img-3.jpg);
+}
