@@ -33,14 +33,13 @@ body{
     background-image: url(../img/banner.jpg);
     width: 100%;
     height: 340px;
-    margin-bottom: 15px;
+    margin: 30px 0;
 }
 
 
 .header-section-2 {
     margin: 20px auto;
     width: 100%;
-    height: 40px;
 }
 
 .body-section-2 {
@@ -54,26 +53,27 @@ body{
 
 .external-column {
     width: calc(25% - 5px);
-    height: 500px;
     margin: 10px 0;
     
 }
 
 .central-column {
     width: calc(50% - 10px);
-    height: 500px;
     margin: 10px 10px;
 }
 
 .footer-container {
-    background-color: blueviolet;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
     height: 30px;
 }
 
 /* Header */
 
 a {
-    font-size: 10px;
+    font-size: 11.5px;
     color:  #828282;
     text-decoration: none;
 } 
@@ -81,7 +81,7 @@ a {
 
 #logo-container,
 #navigator {
-    height: 50%;
+    height: 65%;
 }
 
 
@@ -135,7 +135,7 @@ a {
 /* main section 2 header */
 
 .header-section-2 h1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .section-2-container p {
@@ -167,7 +167,9 @@ a {
 }
 
 .img-title {
-    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
 }
 
 #left-img {
@@ -180,4 +182,12 @@ a {
 
 #right-img {
     background-image: url(../img/img-3.jpg);
+}
+
+
+/* Footer */
+
+#red-heart {
+    font-size: 18px;
+    color: red;
 }
