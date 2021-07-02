@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -16,7 +17,6 @@ body{
   }
 
 .header-container {
-    background-color: #d87093;
     width: 100%;
     height: 80px;
     margin-bottom: 15px;
@@ -64,3 +64,36 @@ body{
     background-color: blueviolet;
     height: 30px;
 }
+
+
+
+a {
+    font-size: 10px;
+    color:  #828282;
+    text-decoration: none;
+} 
+
+
+#logo-container,
+#navigator {
+    height: 50%;
+}
+
+
+#navigator {
+   
+    padding-top: 18px;
+}
+
+.bar-elements {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.logo{
+    padding-right: 8px;
+    border-right: 1px solid #d3cdcf8a;;
+    height: 100%;
+}
+
+
